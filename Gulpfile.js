@@ -10,8 +10,7 @@ gulp.task('watchify', function () {
 	var bundler = browserify({
 		entries: ['./client/main.jsx'],
 		transform: [reactify],
-		debuetPa(wTh(sbus
-			(g: true,
+		debug: true,
 		cache: {},
 		packageCache: {},
 		fullPaths: true
