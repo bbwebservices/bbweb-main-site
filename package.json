@@ -1,0 +1,31 @@
+{
+  "name": "BBWebServices",
+  "version": "1.0.0",
+  "description": "Main website for BB Web Services",
+  "main": "main.jsx",
+  "scripts": {
+    "gulp": "gulp watchify",
+    "start": "nodemon server/server.js"
+  },
+  "author": "James Burnell",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "browserify": "^13.0.0",
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "firebase": "^2.3.2",
+    "gulp": "^3.9.0",
+    "gulp-streamify": "^1.0.2",
+    "history": "^1.17.0",
+    "nodemon": "^1.8.1",
+    "path": "^0.12.7",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.3",
+    "reactify": "^1.1.1",
+    "uglify": "^0.1.5",
+    "velocity-animate": "^1.2.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

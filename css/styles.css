@@ -1,0 +1,9 @@
+#container {
+	margin: 0px;
+}
+
+.jumbo {
+	/*background-image: url(textures/texture_slate_blue.jpg);*/
+	background-color: lightgrey;
+	height: 420px;
+}
